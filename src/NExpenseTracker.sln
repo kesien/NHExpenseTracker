@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExpenseTracker.WebApi", "NExpenseTracker.WebApi\NExpenseTracker.WebApi.csproj", "{39588547-D19D-4436-A528-DE4EF07C163A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NExpenseTracker.WebApi", "NExpenseTracker.WebApi\NExpenseTracker.WebApi.csproj", "{39588547-D19D-4436-A528-DE4EF07C163A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExpenseTracker.Client", "NExpenseTracker.Client\NExpenseTracker.Client.csproj", "{6710AD51-1A5F-476C-80EF-C190F7E60DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NExpenseTracker.Client", "NExpenseTracker.Client\NExpenseTracker.Client.csproj", "{6710AD51-1A5F-476C-80EF-C190F7E60DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExpenseTracker.Application", "NExpenseTracker.Application\NExpenseTracker.Application.csproj", "{A0236C88-F8C0-4127-9900-2F957E113063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NExpenseTracker.Application", "NExpenseTracker.Application\NExpenseTracker.Application.csproj", "{A0236C88-F8C0-4127-9900-2F957E113063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExpenseTracker.Api", "NExpenseTracker.Api\NExpenseTracker.Api.csproj", "{4652D052-1BAD-4FCC-B9AE-E1B7A9703B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NExpenseTracker.Api", "NExpenseTracker.Api\NExpenseTracker.Api.csproj", "{4652D052-1BAD-4FCC-B9AE-E1B7A9703B92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExpenseTracker.Infrastructure", "NExpenseTracker.Infrastructure\NExpenseTracker.Infrastructure.csproj", "{24182770-0F72-4382-8092-0E6882A1F3AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NExpenseTracker.Infrastructure", "NExpenseTracker.Infrastructure\NExpenseTracker.Infrastructure.csproj", "{24182770-0F72-4382-8092-0E6882A1F3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExpenseTracker.ValueObjects", "NExpenseTracker.ValueObjects\NExpenseTracker.ValueObjects.csproj", "{574633D2-5042-44C0-9607-90D690E8D3F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{24182770-0F72-4382-8092-0E6882A1F3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24182770-0F72-4382-8092-0E6882A1F3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24182770-0F72-4382-8092-0E6882A1F3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574633D2-5042-44C0-9607-90D690E8D3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574633D2-5042-44C0-9607-90D690E8D3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574633D2-5042-44C0-9607-90D690E8D3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574633D2-5042-44C0-9607-90D690E8D3F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
